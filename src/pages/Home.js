@@ -1,11 +1,11 @@
 import React from "react";
 
 
-const  Home = (  {setIsLoggedI }) =>  {
+const  Home = (  {setIsLoggedIn }) =>  {
 
     return (
     
-    <div    className="flex items-center justify-center text-white text-2xl h-full">   
+    <div    className="flex items-center bg-slate-950 justify-center text-white text-2xl h-full">   
   
 
       HOME

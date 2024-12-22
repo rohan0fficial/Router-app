@@ -1,4 +1,3 @@
- 
 
 import { Route , Routes } from "react-router-dom";
 import "./App.css";
@@ -9,6 +8,9 @@ import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import { useState } from "react";
 import PrivateRoute from "./components/PrivateRoute";
+import Support from "./pages/Support";
+import About from "./pages/About";
+import Contact from "./pages/Contact"
 
  function App  ()  {
 
@@ -25,6 +27,9 @@ import PrivateRoute from "./components/PrivateRoute";
     <Routes>
 
      <Route  path="/"             element={<Home   setIsLoggedIn={ setIsLoggedIn}  ></Home>}             ></Route>
+     <Route  path="/Support"             element={<Support   setIsLoggedIn={ setIsLoggedIn}  ></Support>}   ></Route>
+     <Route  path="/About"             element={<About   setIsLoggedIn={ setIsLoggedIn}  ></About>}             ></Route>
+     <Route  path="/Contact"             element={<Contact   setIsLoggedIn={ setIsLoggedIn}  ></Contact>}    ></Route>
      <Route  path="/signup"      element={<Signup   setIsLoggedIn={ setIsLoggedIn}  ></Signup>}  ></Route>
      <Route  path="/login"        element={<Login  setIsLoggedIn={ setIsLoggedIn}  ></Login>}     ></Route>
 

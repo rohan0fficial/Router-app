@@ -8,7 +8,7 @@ const  Dashboard = () =>  {
     <div  className="flex items-center justify-center  text-white text-2xl h-full ">   
   
      welcome to studynotion 
-      {/* <h1>hello </h1> */}
+      
   
   
     </div>

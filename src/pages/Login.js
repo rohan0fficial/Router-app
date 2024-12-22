@@ -11,7 +11,7 @@ import loginImg from "../assets/login.png"
      title=" Welcome Back" 
      desc1="build skill for today , tomorrow and beyond."
     desc2=" Education to future-proof  your career. "
-    image={loginImg}
+    image={loginImg}     
     formtype="signup"
     setIsLoggedIn={setIsLoggedIn}
     
